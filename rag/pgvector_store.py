@@ -1,11 +1,16 @@
 from langchain_postgres import PGVector
-from langchain_community.embeddings import OllamaEmbeddings
-from config import DATABASE_URL, EMBEDDING_MODEL
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from config import DATABASE_URL
 
 COLLECTION_PREFIX = "hanuman_session_"
 
 def get_embeddings():
-    return OllamaEmbeddings(model=EMBEDDING_MODEL)
+    """
+    Render-safe embeddings (no Ollama required).
+    """
+    return HuggingFaceEmbeddings(
+        model_name="sentence-transformers/all-MiniLM-L6-v2"
+    )
 
 def get_vectorstore(session_id: str):
     """
