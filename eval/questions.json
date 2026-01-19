@@ -1,0 +1,54 @@
+[
+  {
+    "question": "What is my full name exactly as written in the resume?",
+    "expected": "must match name"
+  },
+  {
+    "question": "Which year did I complete my MCA and from which university?",
+    "expected": "MCA year + university name"
+  },
+  {
+    "question": "List 5 technical skills mentioned in my resume.",
+    "expected": "skills exactly from resume"
+  },
+  {
+    "question": "What is my most recent role and company name?",
+    "expected": "latest job role + company"
+  },
+  {
+    "question": "Give my email id and phone number exactly as shown.",
+    "expected": "email + phone"
+  },
+  {
+    "question": "What are the 2 strongest projects mentioned and what tech stack was used?",
+    "expected": "2 projects + tech stack"
+  },
+  {
+    "question": "Summarize my resume in exactly 3 bullet points.",
+    "expected": "3 bullets"
+  },
+  {
+    "question": "What are my achievements/certifications mentioned?",
+    "expected": "certifications list"
+  },
+  {
+    "question": "What is my LinkedIn or portfolio link (if mentioned)?",
+    "expected": "link"
+  },
+  {
+    "question": "Trick Question: What is my date of birth?",
+    "expected": "Should say: Not mentioned in resume"
+  },
+  {
+    "question": "Trick Question: What is my father’s name?",
+    "expected": "Should say: Not mentioned in resume"
+  },
+  {
+    "question": "Trick Question: What is my 10th percentage?",
+    "expected": "Should say: Not mentioned"
+  },
+  {
+    "question": "Trick Question: What is my current salary?",
+    "expected": "Should say: Not mentioned"
+  }
+]

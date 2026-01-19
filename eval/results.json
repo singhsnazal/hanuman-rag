@@ -1,0 +1,158 @@
+[
+  {
+    "question": "What is my full name exactly as written in the resume?",
+    "expected": "must match full  name",
+    "answer": "Your full name is not explicitly mentioned in the provided context. However, your username or handle is mentioned as \"SNAZALSINGH\" [2]. \n\nI don't know your full name based on the provided documents.",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  },
+  {
+    "question": "Which year did I complete my MCA and from which university?",
+    "expected": "MCA year + university name",
+    "answer": "You completed your Master of Computer Applications (MCA) in 2023 from the Central University of Karnataka, with a CGPA of 7.88/10 [1].",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  },
+  {
+    "question": "List 5 technical skills mentioned in my resume.",
+    "expected": "skills exactly from resume",
+    "answer": "Based on the provided context, here are 5 technical skills mentioned in your resume:\n\n1. Generative AI & Agents [1]\n2. Computer Vision (specifically OpenCV and Pose Estimation) [1]\n3. Python programming language [1]\n4. PyTorch framework [1]\n5. Docker tool [1], [3]\n\nThese skills are mentioned in sections [1] and [3] of the provided context.",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  },
+  {
+    "question": "What is my most recent role and company name?",
+    "expected": "latest job role + company",
+    "answer": "Your most recent role is AI Engineer, and the company name is FedEx XSmart Center [2]. This role started in January 2025 and is currently ongoing, as indicated by \"Jan 2025 \u2013 Present\" [2].",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  },
+  {
+    "question": "Give my email id and phone number exactly as shown.",
+    "expected": "email + phone",
+    "answer": "Your email id is snazals64@gmail.com and your phone number is +91 6203496982, as shown in [1].",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  },
+  {
+    "question": "What are the 2 strongest projects mentioned and what tech stack was used?",
+    "expected": "2 projects + tech stack",
+    "answer": "The two strongest projects mentioned are:\n\n1. **EcoSmart Fleet**: This project is an AI-driven engine that uses geolocation and weather APIs for sustainable vehicle allocation [1]. The tech stack used for this project is not explicitly mentioned, but based on the context, it can be inferred that it involves the use of APIs, AI, and possibly geolocation and weather data processing.\n\n2. **RAG system using Pinecone + OpenAI + n8n**: This project is a full RAG (Retrieve, Augment, Generate) system that handles data ingestion, retrieval optimization, and multi-case evaluation [2]. The tech stack used for this project includes Pinecone, OpenAI, and n8n, which are used for building and deploying AI models, particularly LLMs (Large Language Models) like Llama-30B [2], [4].\n\nNote that the strength of a project can be subjective, but based on the context, these two projects seem to be significant and showcase the use of advanced technologies like AI, geolocation, and weather APIs.",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  },
+  {
+    "question": "Summarize my resume in exactly 3 bullet points.",
+    "expected": "3 bullets",
+    "answer": "Here is a summary of your resume in 3 bullet points:\n* You have experience in developing AI-powered projects, including LLM-powered assistants [1] and AI-driven engines for sustainable vehicle allocation [1], as well as working on computer vision tasks such as pose estimation [2] and object tracking.\n* Your technical skills include expertise in generative AI, computer vision, and machine learning, with proficiency in languages such as Python, C++, and Java, and frameworks like PyTorch and TensorFlow [3].\n* You have held various professional roles, including Project Associate at the Indian Institute of Technology Madras [1], Computer Vision Intern at HiLCPS Lab [2], and AI Engineer at FedEx XSmart Center [4], where you have applied your skills to develop innovative solutions and automate workflows.",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  },
+  {
+    "question": "What are my achievements/certifications mentioned?",
+    "expected": "certifications list",
+    "answer": "Your achievements and certifications mentioned include:\n\n1. Certifications:\n   - Full Stack Generative and Agentic AI with Python [1]\n   - Python for Computer Vision with OpenCV and Deep Learning [1]\n   - Data Science Internship [1]\n   - HTML5 and CSS3 Fundamentals [1]\n\n2. Projects and Achievements:\n   - Developed a Convolutional Neural Network (CNN) for human emotion recognition with 70% validation accuracy [2]\n   - Built a real-time gesture-based volume control system using OpenCV and MediaPipe [2]\n   - Designed automated unit testing frameworks and curated training-grade tennis datasets [3]\n   - Developed an AI agent to extract structured scoreboard data from video feeds [3]\n   - Developed pose estimation pipelines to track boxer movements and analyze athlete traits [3]\n   - Designed a neural network for depth estimation from Single-Photon Avalanche Diode (SPAD) data [3]\n   - Automated local workflows via Claude Desktop and Local MCP Server integration [5]\n   - Developed LLM-powered assistants for forecasting, inventory intelligence, and operational Q&A [5]\n   - Built EcoSmart Fleet, an AI-driven engine for sustainable vehicle allocation [5]\n   - Led the development of deep learning frameworks for cricket and tennis analytics [5]\n   - Built pipelines to extract match events and compute ball release angles/speeds from broadcast footage [5]\n\nThese achievements and certifications demonstrate your expertise in areas such as computer vision, deep learning, and AI, as well as your experience in working on various projects and developing innovative solutions.",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  },
+  {
+    "question": "What is my LinkedIn or portfolio link (if mentioned)?",
+    "expected": "link",
+    "answer": "Your LinkedIn link is not explicitly provided, but your LinkedIn is mentioned as \"LinkedIn\" [1]. \n\nHowever, your portfolio link is mentioned as \"snazalportfolio.netlify.app\" [1].",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  },
+  {
+    "question": "Trick Question: What is my date of birth?",
+    "expected": "Should say: Not mentioned in resume",
+    "answer": "I don't know based on the provided documents. \n\nThere is no information about your date of birth in any of the provided context [1], [2], [3], [4], or [5].",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  },
+  {
+    "question": "Trick Question: What is my father\u2019s name?",
+    "expected": "Should say: Not mentioned in resume",
+    "answer": "I don't know based on the provided documents.",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  },
+  {
+    "question": "Trick Question: What is my 10th percentage?",
+    "expected": "Should say: Not mentioned",
+    "answer": "I don't know based on the provided documents.",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  },
+  {
+    "question": "Trick Question: What is my current salary?",
+    "expected": "Should say: Not mentioned",
+    "answer": "I don't know based on the provided documents. \n\nThere is no information about your current salary in the provided context [1], [2], [3], [4], or [5]. The context only provides information about your technical skills, certifications, experience, and projects, but does not mention your salary.",
+    "sources": [
+      "[1] Resume.pdf (page 0)",
+      "[2] Resume.pdf (page 0)",
+      "[3] Resume.pdf (page 0)",
+      "[4] Resume.pdf (page 0)",
+      "[5] Resume.pdf (page 0)"
+    ]
+  }
+]

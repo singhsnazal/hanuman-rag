@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hanuman AI • RAG Chatbot</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="bg"></div>
+
+  <div class="app">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">🕉️</div>
+        <div>
+          <div class="title">Hanuman AI</div>
+          <div class="subtitle">RAG Chatbot • Groq LLM • ChromaDB • Ollama Embeddings</div>
+        </div>
+      </div>
+
+      <!-- ✅ Buttons -->
+      <div style="display:flex; gap:10px;">
+        <button id="newSessionBtn" class="btn ghost">New Session</button>
+        <button id="clearBtn" class="btn ghost">Clear</button>
+      </div>
+    </header>
+
+    <main id="chat" class="chat"></main>
+
+    <!-- ✅ UPDATED FOOTER -->
+    <footer class="composer">
+
+      <!-- Upload Row -->
+      <div class="upload-row">
+        <!-- ✅ multiple allows selecting many PDFs -->
+        <input id="fileInput" class="file-input" type="file" accept="application/pdf" multiple />
+        <button id="uploadBtn" class="btn ghost">Upload PDF</button>
+      </div>
+
+      <!-- Ask Row -->
+      <div class="ask-row">
+        <input id="query" type="text" placeholder="Ask something from your documents..." />
+        <button id="sendBtn" class="btn primary">Send</button>
+      </div>
+
+    </footer>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
