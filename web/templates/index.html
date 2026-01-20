@@ -15,7 +15,7 @@
         <div class="logo">🕉️</div>
         <div>
           <div class="title">Hanuman AI</div>
-          <div class="subtitle">RAG Chatbot • Groq LLM • ChromaDB • Ollama Embeddings</div>
+          <div class="subtitle">RAG Chatbot • Groq LLM • PGVector (Postgres) • HF Embeddings</div>
         </div>
       </div>
 
@@ -28,19 +28,24 @@
 
     <main id="chat" class="chat"></main>
 
-    <!-- ✅ UPDATED FOOTER -->
+    <!-- ✅ FOOTER -->
     <footer class="composer">
 
       <!-- Upload Row -->
       <div class="upload-row">
-        <!-- ✅ multiple allows selecting many PDFs -->
-        <input id="fileInput" class="file-input" type="file" accept="application/pdf" multiple />
-        <button id="uploadBtn" class="btn ghost">Upload PDF</button>
+        <input
+          id="fileInput"
+          class="file-input"
+          type="file"
+          accept="application/pdf"
+          multiple
+        />
+        <button id="uploadBtn" class="btn ghost">Upload PDF(s)</button>
       </div>
 
       <!-- Ask Row -->
       <div class="ask-row">
-        <input id="query" type="text" placeholder="Ask something from your documents..." />
+        <input id="query" type="text" placeholder="Ask something from your PDFs..." />
         <button id="sendBtn" class="btn primary">Send</button>
       </div>
 
